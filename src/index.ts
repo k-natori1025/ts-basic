@@ -31,8 +31,15 @@
 // objectSample()
 // typeAiliasSample()
 
-import arraySample from "./array/array";
-import tupleSample from "./array/tuple";
+// import arraySample from "./array/array";
+// import tupleSample from "./array/tuple";
 
-arraySample()
-tupleSample()
+// arraySample()
+// tupleSample()
+
+// ジェネリック型とポリモーフィズム
+import genericBasicSample from "./generics/basic";
+import genericsAdvancedSample from "./generics/advanced";
+
+genericBasicSample()
+genericsAdvancedSample()
