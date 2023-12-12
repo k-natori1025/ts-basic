@@ -23,7 +23,7 @@ type Rice = {
   gram: number
 }
 
-type MaboDon = MaboDofu & Rice // 交差型(intersection)
+type MaboDon = MaboDofu & Rice // 交差型(intersection)で新しい型エイリアスを作る
 
 const maboDon: MaboDon = {
   calories: 500,
